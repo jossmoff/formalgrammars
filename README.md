@@ -25,4 +25,6 @@ Once you have done this you can now create your grammar by creating a grammar en
 
 Will output as the following:
 
+![alt text](https://github.com/JossMoff/formalgrammars/blob/master/images/CFGExample.JPG)
+
 See the documenation here : [Coming Soon]()
