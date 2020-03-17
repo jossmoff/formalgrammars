@@ -1,6 +1,8 @@
 # LaTeX style for Formal Grammars
-
-## Getting Started
+## Contents
+1. [Setup](#setup)
+2. [Documentation](#documentation)
+## Setup
 
 LaTeX style for Formal Grammars and operations
 
