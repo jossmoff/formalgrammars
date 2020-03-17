@@ -1,5 +1,7 @@
 # LaTeX style for Formal Grammars
 
+## Getting Started
+
 LaTeX style for Formal Grammars and operations
 
 In order to load the package, use the following code:
@@ -27,4 +29,5 @@ Will output as the following:
 
 ![alt text](https://github.com/JossMoff/formalgrammars/blob/master/images/CFGExample.JPG)
 
+ ## Documentation
 See the documenation here : [Coming Soon]()
