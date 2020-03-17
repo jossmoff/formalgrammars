@@ -1,0 +1,29 @@
+% Commands for drawing Formal Grammars
+% using only math tools.
+% Joss Moffatt 2020
+
+%
+%  Functions relevant to General Formal Grammars
+%
+\usepackage{mathtools}
+% Production Rule
+\newcommand{\pr}[2]{
+    #1 & \( \to\) & #2\\
+}
+% OR in production rule WITHOUT single trailing white space
+\newcommand{\gor}{$|$} 
+
+% OR in production rule WITH single trailing white space
+\newcommand{\gors}{$|$\ } 
+
+% Alias for \Rightarrow using Sipser[2013] the definition for yields 
+\newcommand{\yields}{\(\Rightarrow\)} 
+
+% Using Sipser[2013] definition for derives
+\newcommand{\derives}{\(\xRightarrow[]{\star}\)} 
+
+\newenvironment{grammar}[1]{ % grammar as an environment, 1: columns 2:data 3: derivations
+    \begin{tabular}{r c l}
+        #1
+    \end{tabular}
+}{}
